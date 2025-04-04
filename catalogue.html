@@ -18,6 +18,27 @@
 </head>
 
 <body>
+    <form id="modal" class="modal">
+      <div class="modal__content">
+        <svg class="modal__close" xmlns="http://www.w3.org/2000/svg" width="86" height="91" viewBox="0 0 86 91" fill="none">
+          <line opacity="0.5" y1="-0.9" x2="61.5742" y2="-0.9"
+            transform="matrix(0.690344 -0.723481 0.690344 0.723481 22.2087 68.7714)" stroke="black" stroke-width="1.8" />
+          <line opacity="0.5" y1="-0.9" x2="61.5742" y2="-0.9"
+            transform="matrix(-0.690344 -0.723481 0.690344 -0.723481 63.7611 67.7704)" stroke="black" stroke-width="1.8" />
+        </svg>
+        <label class="modal__label" for="">Ваше ім’я</label>
+        <input class="modal__input modal__input-name" type="text" placeholder="Наталія">
+    
+        <label class="modal__label" for="">Номер телефону</label>
+        <input class="modal__input" type="number" placeholder="+38 (000) 000 00 00">
+    
+        <div class="header__btn-wrapper">
+          <button class="header__btn modal-btn">Надіслати</button>
+        </div>
+    
+        <p class="modal__descr">ми зв’яжемося з вами протягом години</p>
+      </div>
+    </form>
   <header class="header header-catalog">
     <nav class="menu">
       <button class="burger" id="burger-menu">
@@ -45,15 +66,15 @@
       </a>
     </nav>
     <div class="container">
-      <div class="header__top">
+      <div class="header__top catalog-top">
         <div class="header__top-left">
           <button class="burger" id="burger">
             <span></span>
             <span></span>
             <span></span>
           </button>
-          <div class="header__menu">
-            <a class="header__menu-link" href="mailto:everose.flowers.manager@gmail.com">
+          <div class="header__menu catalog-menu">
+            <a class="header__menu-link catalog-menu-link" href="mailto:everose.flowers.manager@gmail.com">
               everose.flowers.manager@gmail.com
             </a>
             <a class="header__menu-link" href="tel:380982415740">
@@ -64,7 +85,7 @@
             </a>
           </div>
         </div>
-        <a class="header__logo" href="#">
+        <a class="header__logo catalog-logo" href="#">
           <img class="header__logo-img" src="./images/logo.png" alt="">
         </a>
         <div class="header__top-right">
@@ -76,7 +97,7 @@
               <img src="./images/instagram.svg" alt="">
             </a>
           </div>
-          <button class="header__btn header__top-btn order-btn">
+          <button class="header__btn catalogue__btn header__top-btn order-btn">
             замовити букет
           </button>
         </div>

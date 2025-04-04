@@ -1265,9 +1265,9 @@ p {
 }
 
 @media (max-width: 500px) {
-	.top-bg{
+	/* .top-bg{
 		display: none;
-	}
+	} */
 	.catalogue__img{
 		width: 100%;
 	}

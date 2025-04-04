@@ -821,7 +821,6 @@ p {
 	align-items: center;
 	justify-content: center;
 	z-index: 150;
-	border-radius: 15px;
 }
 .modal__content {
 	padding: 105px 67px 85px;
@@ -1249,6 +1248,12 @@ p {
 	.help__info-title br {
 		display: none;
 	}
+	.modal__content{
+		width: 100%;
+	}
+	.modal__descr{
+		font-size: 12px;
+	}
 	.modal__label {
 		font-size: 15px;
 	}
@@ -1267,6 +1272,9 @@ p {
 
 	.availibilty-grid {
 		display: block !important;
+	}
+	.footer__form{
+		gap: 10px;
 	}
 }
 

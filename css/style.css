@@ -1265,9 +1265,9 @@ p {
 }
 
 @media (max-width: 500px) {
-	/* .top-bg{
+	.top-bg{
 		display: none;
-	} */
+	}
 	.catalogue__img{
 		width: 100%;
 	}
@@ -1290,7 +1290,11 @@ p {
 		scale: 0.6;
 		right: -800px;
 	}
-	.header__inner {
-		align-items: start;
-	}
+.header__content{
+	justify-content: center;
+	margin-top: 70px;
+}
+.header-main{
+	margin-bottom: 25px;
+}
 }

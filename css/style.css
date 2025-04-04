@@ -25,6 +25,8 @@ body {
 	overflow-x: hidden;
 }
 
+
+
 .burger {
 	position: relative;
 	width: 50px;
@@ -1263,6 +1265,9 @@ p {
 }
 
 @media (max-width: 500px) {
+	.top-bg{
+		display: none;
+	}
 	.catalogue__img{
 		width: 100%;
 	}

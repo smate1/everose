@@ -1248,10 +1248,10 @@ p {
 	.help__info-title br {
 		display: none;
 	}
-	.modal__content{
+	.modal__content {
 		width: 100%;
 	}
-	.modal__descr{
+	.modal__descr {
 		font-size: 12px;
 	}
 	.modal__label {
@@ -1273,8 +1273,18 @@ p {
 	.availibilty-grid {
 		display: block !important;
 	}
-	.footer__form{
+	.footer__form {
 		gap: 10px;
+	}
+	.burger {
+		width: 30px;
+		height: 20px;
+	}
+	.header.open .burger span:first-child{
+		    transform: rotate(45deg) translate(8px, 8px);
+	}
+	.header.open .burger span:last-child{
+		    transform: rotate(-45deg) translate(6px, -5px);
 	}
 }
 

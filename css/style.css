@@ -1081,6 +1081,9 @@ p {
 	.footer__info{
 		margin-bottom: 40px;
 	}
+	.header{
+		padding-top: 0;
+	}
 }
 
 @media (max-width: 700px) {
